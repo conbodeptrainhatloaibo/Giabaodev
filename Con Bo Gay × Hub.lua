@@ -1,6 +1,7 @@
--- bản quyền của con bò mà mày lấy đéo cre là cha mẹ mày đi ông bà m chết!
+-- Bản Quyền By Con Bò (Lấy Đéo cre Là Nhà Mày Sẽ Chết)
 
-shared.LoaderTitle = "Gia Bao Devs";
+
+shared.LoaderTitle = "Đăng Ký Kênh Con Bò(Dev)";
 shared.LoaderKeyFrames = {
     [1] = {
         1,
@@ -95,7 +96,7 @@ local v7 = CreateObject("ImageLabel", {
     Name = "UserImage",
     Parent = v6,
     BackgroundTransparency = 1,
-    Image = "rbxassetid://92607706148571",
+    Image = "rbxassetid://83190276951914",
     Position = UDim2.new(0, 15, 0, 10),
     Size = UDim2.new(0, 50, 0, 50)
 });
@@ -104,7 +105,7 @@ local v8 = CreateObject("TextLabel", {
     Name = "UserName",
     Parent = v6,
     BackgroundTransparency = 1,
-    Text = "Youtube: Con Bò (GiabaoDevs)",
+    Text = "Youtube: Con Bò ",
     Position = UDim2.new(0, 75, 0, 10),
     Size = UDim2.new(0, 200, 0, 50),
     Font = Enum.Font.GothamBold,
@@ -312,13 +313,13 @@ v5:Destroy();
 -- end);
 local v14 = loadstring(game:HttpGet("https://raw.githubusercontent.com/SkibidiHub111/Gui11/refs/heads/main/Idk"))();
 local v15 = v14:CreateWindow({
-    Title = "Con Bò Gay × Hub",
-SubTitle = "Blox Kid",
-TabWidth = 160,
-Theme = "white",
-Acrylic = false,
-Size = UDim2.fromOffset(500, 320),
-MinimizeKey = Enum.KeyCode.End,
+    Title = "Con Bò  Hub",
+    SubTitle = "Blox Fruit",
+    TabWidth = 160,
+    Theme = "Dark",
+    Acrylic = false,
+    Size = UDim2.fromOffset(500, 320),
+    MinimizeKey = Enum.KeyCode.End
 });
 local v16 = {
     Home = v15:AddTab({
@@ -2632,7 +2633,7 @@ v23.BorderSizePixel = 0;
 v23.Position = UDim2.new(0.120833337 - 0.1, 0, 0.0952890813 + 0.01, 0);
 v23.Size = UDim2.new(0, 50, 0, 50);
 v23.Draggable = true;
-v23.Image = "http://www.roblox.com/asset/?id=92607706148571";
+v23.Image = "http://www.roblox.com/asset/?id=83190276951914";
 v24.Parent = v23;
 v24.CornerRadius = UDim.new(0, 12);
 v25.Parent = v23;
@@ -2676,8 +2677,8 @@ if game:GetService("ReplicatedStorage").Effect.Container:FindFirstChild("Respawn
     game:GetService("ReplicatedStorage").Effect.Container.Respawn:Destroy();
 end
 v16.Home:AddButton({
-    Title = "Tiktok",
-    Description = "Giao Lưu",
+    Title = "TikTok",
+    Description = "Flow Me Pls",
     Callback = function()
         setclipboard("https://tiktok.com/@giabaonevk");
     end
@@ -3873,7 +3874,7 @@ if Sea3 then
             _G.AutoFindPrehistoric = false;
             if not v513 then
                 v14:Notify({
-                    Title = "Con Bò (GiabaoDevs)",
+                    Title = "Con Bò ",
                     Content = "Đảo Dung Nham Tìm Thấy",
                     Duration = 10
                 });
@@ -3967,7 +3968,7 @@ if Sea3 then
             _G.AutoFindMirage = false;
             if not v513 then
                 v14:Notify({
-                    Title = "Con Bò (GiabaoDevs)",
+                    Title = "Con Bò ",
                     Content = "Đảo Bí Ẩn Tìm Thấy",
                     Duration = 10
                 });
@@ -4061,7 +4062,7 @@ if Sea3 then
             _G.AutoFindFrozen = false;
             if not v513 then
                 v14:Notify({
-                    Title = "Con Bò (GiabaoDevs)",
+                    Title = "Con Bò ",
                     Content = "Đảo Leviathan Tìm Thấy",
                     Duration = 10
                 });
@@ -4686,7 +4687,7 @@ if Sea3 then
         end
         for v728, v729 in pairs(game:GetService("Workspace").Map.MysticIsland:GetDescendants()) do
             if v729:IsA("MeshPart") then
-                if (v729.MeshId == "rbxassetid://92607706148571") then
+                if (v729.MeshId == "rbxassetid://83190276951914") then
                     return v729;
                 end
             end
@@ -9324,6 +9325,6 @@ spawn(function()
 end);
 v14:Notify({
     Title = "Con Bò Thông Báo",
-    Content = "Chúc Bạn Chơi Game Vui Vẻ",
+    Content = "Chúc Bạn Chơi Game Vui Vẻ!",
     Duration = 10
 });
