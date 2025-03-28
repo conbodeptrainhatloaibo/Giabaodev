@@ -1,5 +1,4 @@
-
-
+-- bản quyền của con bò mà mày lấy đéo cre là cha mẹ mày đi ông bà m chết!
 
 shared.LoaderTitle = "Gia Bao Devs";
 shared.LoaderKeyFrames = {
@@ -22,13 +21,13 @@ shared.LoaderKeyFrames = {
 };
 local v2 = {
     LoaderData = {
-        Name = shared.LoaderTitle or "A Loader",
-        Colors = shared.LoaderColors or {
-            Main = Color3.fromRGB(128, 0, 128),
-Topic = Color3.fromRGB(200, 100, 255),
-Title = Color3.fromRGB(255, 0, 255),
-LoaderBackground = Color3.fromRGB(75, 0, 130),
-LoaderSplash = Color3.fromRGB(153, 50, 204)
+            Name = shared.LoaderTitle or "A Loader",
+Colors = shared.LoaderColors or {
+    Main = Color3.fromRGB(75, 0, 130), 
+    Topic = Color3.fromRGB(75, 0, 130), 
+    Title = Color3.fromRGB(75, 0, 130), 
+    LoaderBackground = Color3.fromRGB(75, 0, 130), 
+    LoaderSplash = Color3.fromRGB(75, 0, 130) 
         }
     },
     Keyframes = shared.LoaderKeyFrames or {
@@ -314,9 +313,9 @@ v5:Destroy();
 local v14 = loadstring(game:HttpGet("https://raw.githubusercontent.com/SkibidiHub111/Gui11/refs/heads/main/Idk"))();
 local v15 = v14:CreateWindow({
     Title = "Con Bò Gay × Hub",
-SubTitle = "Blox Fruit",
+SubTitle = "Blox Kid",
 TabWidth = 160,
-Theme = "Purple",
+Theme = "white",
 Acrylic = false,
 Size = UDim2.fromOffset(500, 320),
 MinimizeKey = Enum.KeyCode.End,
